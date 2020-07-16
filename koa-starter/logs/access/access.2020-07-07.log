@@ -1,0 +1,210 @@
+[2020-07-07T11:03:30.662] [17388] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 318ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
+[2020-07-07T11:06:26.848] [16752] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 8ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"2925b2c2-77a4-4c93-b2b0-d97e7fb186f0"}}
+------------------------- end
+[2020-07-07T11:09:01.671] [16752] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 10ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"b5fa06e1-da55-4e09-bb01-9e07bc5d5404"}}
+------------------------- end
+[2020-07-07T11:16:26.404] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 48 3ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"1","password":"c4ca4238a0b923820dcc509a6f75849b"}
+res type: application/json
+res body: {"status":-1,"msg":"username or password wrong"}
+------------------------- end
+[2020-07-07T11:16:35.481] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 10ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"291f74f2-899f-44bf-823d-90cb889675fb"}}
+------------------------- end
+[2020-07-07T11:19:58.541] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 7ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"f4693be9-9964-451b-ad3d-4d538d176252"}}
+------------------------- end
+[2020-07-07T11:20:09.031] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 8ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"ba7b8115-52d6-4935-817d-2867cd7a86a4"}}
+------------------------- end
+[2020-07-07T11:20:17.387] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 5ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"2936e274-530c-4476-b692-80e3826dce6b"}}
+------------------------- end
+[2020-07-07T11:20:18.231] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 7ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"bf655c94-1892-4217-8646-46fea17589ff"}}
+------------------------- end
+[2020-07-07T11:21:21.335] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 8ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"666e7474-4de8-4ec5-a630-c61949880f99"}}
+------------------------- end
+[2020-07-07T11:25:30.354] [17256] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 7ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"002c97e0-f6bc-4b99-80f1-2ece95deb8fa"}}
+------------------------- end
+[2020-07-07T11:35:28.569] [17256] ::ffff:172.25.78.33 - "http POST /user/logout null" 404 undefined 0ms
+[2020-07-07T11:37:59.477] [4904] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 8ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"9fada4ef-ff1e-4303-94fd-7863e6a220e4"}}
+------------------------- end
+[2020-07-07T13:02:29.153] [16508] ::1 - "http GET /user/info null" 200 6 1ms
+[2020-07-07T13:02:29.251] [16508] ::1 - "http GET /favicon.ico null" 200 35 2ms
+------------------------- start
+req type: null
+req query: {}
+req body: {}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized"}
+------------------------- end
+[2020-07-07T13:04:07.389] [16128] ::1 - "http GET /user/info null" 200 35 2ms
+------------------------- start
+req type: null
+req query: {}
+req body: {}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized"}
+------------------------- end
+[2020-07-07T13:04:07.446] [16128] ::1 - "http GET /favicon.ico null" 200 35 0ms
+------------------------- start
+req type: null
+req query: {}
+req body: {}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized"}
+------------------------- end
+[2020-07-07T14:32:23.550] [16128] ::1 - "http GET /user/info null" 200 35 0ms
+------------------------- start
+req type: null
+req query: {}
+req body: {}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized"}
+------------------------- end
+[2020-07-07T14:32:23.617] [16128] ::1 - "http GET /favicon.ico null" 200 35 0ms
+------------------------- start
+req type: null
+req query: {}
+req body: {}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized"}
+------------------------- end
+[2020-07-07T14:37:01.598] [6596] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 114 2ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized","data":"Error: token invalid or expired: 9fada4ef-ff1e-4303-94fd-7863e6a220e4"}
+------------------------- end
+[2020-07-07T14:37:05.711] [6596] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 114 1ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized","data":"Error: token invalid or expired: 9fada4ef-ff1e-4303-94fd-7863e6a220e4"}
+------------------------- end
+[2020-07-07T14:37:10.615] [6596] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 114 1ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":401,"msg":"unauthorized","data":"Error: token invalid or expired: 9fada4ef-ff1e-4303-94fd-7863e6a220e4"}
+------------------------- end
+[2020-07-07T14:37:46.365] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 9ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"196d24e7-1b9a-4ef9-a0c2-679b94d61b7e"}}
+------------------------- end
+[2020-07-07T14:38:36.596] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 18ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"a915f9eb-8245-43c8-bcd6-6464ae6864a8"}}
+------------------------- end
+[2020-07-07T14:40:54.294] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 6ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"1779ad05-0507-4177-8a91-58d3ea85fb33"}}
+------------------------- end
+[2020-07-07T15:15:16.023] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 48 6ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root ","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":-1,"msg":"username or password wrong"}
+------------------------- end
+[2020-07-07T15:17:07.956] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 48 7ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root ","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":-1,"msg":"username or password wrong"}
+------------------------- end
+[2020-07-07T15:19:42.769] [13544] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 86 8ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":200,"msg":"success","data":{"token":"e66ea27b-5557-4e15-99e9-8f02b782bdf5"}}
+------------------------- end

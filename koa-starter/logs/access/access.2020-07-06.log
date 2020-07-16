@@ -1,0 +1,136 @@
+[2020-07-06T13:44:24.769] [19784] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 1ms
+[2020-07-06T13:44:58.527] [2696] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 1ms
+[2020-07-06T14:01:22.508] [16116] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 2ms
+[2020-07-06T14:09:44.016] [20140] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 1ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"admin","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T14:39:20.340] [16028] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 1ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T14:40:53.564] [20664] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 2ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T14:41:10.345] [3288] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 1ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T14:56:49.129] [3052] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 4ms
+[2020-07-06T14:57:25.837] [20228] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 2ms
+[2020-07-06T14:57:45.021] [1564] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 4ms
+[2020-07-06T14:58:14.508] [3680] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 5ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"Error: Unknown column 'username' in 'where clause'"}
+------------------------- end
+[2020-07-06T14:58:50.853] [3680] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 25ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T15:01:01.480] [20476] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 4ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T15:01:04.356] [20476] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 30 4ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root1","password":"123456"}
+res type: application/json
+res body: {"status":200,"msg":"success"}
+------------------------- end
+[2020-07-06T15:01:22.238] [19656] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 48 3ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root1","password":"123456"}
+res type: application/json
+res body: {"status":-1,"msg":"username or password wrong"}
+------------------------- end
+[2020-07-06T15:27:32.585] [21216] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 48 21ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root1","password":"123456"}
+res type: application/json
+res body: {"status":-1,"msg":"username or password wrong"}
+------------------------- end
+[2020-07-06T15:27:45.148] [21216] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 90 6ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"123456"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"ReferenceError: users is not defined"}
+------------------------- end
+[2020-07-06T15:27:58.428] [13488] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 7ms
+[2020-07-06T15:32:20.256] [13488] ::ffff:172.25.78.33 - "http POST /user/login application/json" 204 undefined 7ms
+[2020-07-06T16:50:45.819] [16632] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 13ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
+[2020-07-06T16:52:34.971] [23284] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 10ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
+[2020-07-06T16:54:06.394] [11092] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 10ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
+[2020-07-06T16:56:45.843] [21644] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 11ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
+[2020-07-06T16:57:28.098] [20408] ::ffff:172.25.78.33 - "http POST /user/login application/json" 200 104 11ms
+------------------------- start
+req type: application/json
+req query: {}
+req body: {"username":"root","password":"e10adc3949ba59abbe56e057f20f883e"}
+res type: application/json
+res body: {"status":500,"msg":"internal server error","data":"TypeError: Cannot read property 'jwt' of undefined"}
+------------------------- end
