@@ -1,4 +1,4 @@
-# video-demo
+# vue-starter
 
 > A Vue.js project
 
