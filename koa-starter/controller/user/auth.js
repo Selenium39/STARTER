@@ -27,6 +27,7 @@ class AuthController {
                 res.data = error.toString();
             }
         } finally {
+            ctx.db.releaseConnection(conn);
             ctx.body = res;
         }
     }
